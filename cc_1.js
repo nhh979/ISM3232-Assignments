@@ -1,12 +1,15 @@
 
-// Initiate a bill value
-let bill = 275;
+// Initiate a bill value 
+let bill = 350;
+
+// Declare the tip variable
+let tip;
 
 // Determine the tip amount
 if (bill >= 50 && bill <= 300){
-    let tip = 0.2;
+    tip = 0.2;
 } else{
-    let tip = 0.15;
+    tip = 0.15;
 }
 
 
