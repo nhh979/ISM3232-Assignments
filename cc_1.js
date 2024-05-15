@@ -7,11 +7,9 @@ let tip;
 
 // Determine the tip amount
 if (bill >= 50 && bill <= 300){
-    tip = 0.2*bill;
-} else{
     tip = 0.15*bill;
+} else{
+    tip = 0.20*bill;
 }
-
-
 
 
