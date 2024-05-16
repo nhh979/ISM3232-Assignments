@@ -14,6 +14,13 @@ if (bill >= 50 && bill <= 300){
 } else{
     tip = 0.20*bill;
 }
-console.log(tip);
+
+// Calculate the total cost
+let total = bill + tip;
+
+// Display message
+console.log(`The bill was \$${bill}, the tip was \$${tip}, and the total value \$${total}.`);
+
+
 
 
