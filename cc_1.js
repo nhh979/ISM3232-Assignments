@@ -21,6 +21,18 @@ let total = bill + tip;
 // Display message
 console.log(`The bill was \$${bill}, the tip was \$${tip}, and the total value \$${total}.`);
 
+//-------------------------------------------------
+// Create a function to calculate tip
+function calcTip(bill){
+    if (bill >= 50 && bill <= 300){
+        return 0.15*bill;
+    } else{
+        return 0.20*bill;
+    }
+}
+
+console.log(`The bill was \$100, the tip was \$${calcTip(100)}, and the total value \$${100 + calcTip(100)}.`);
+
 
 
 
