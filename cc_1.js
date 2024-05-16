@@ -1,3 +1,6 @@
+// Hoang Nguyen
+// U12840485
+//-------------------
 
 // Initiate a bill value 
 let bill = 275;
